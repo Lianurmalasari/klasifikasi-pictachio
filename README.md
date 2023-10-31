@@ -77,6 +77,8 @@ df['Class'] = label_encoder.fit_transform(df['Class'])
 columns_to_drop = ['SHAPEFACTOR_1', 'SHAPEFACTOR_2', 'SHAPEFACTOR_3', 'SHAPEFACTOR_4']
 df = df.drop(columns=columns_to_drop)
 ```
+Visualisasi jumlah data dikolom Class:
+![image](https://github.com/Lianurmalasari/klasifikasi-pictachio/assets/145843965/4d2328aa-7568-497c-99b5-8d8cd58b4f65)
 
 ## Modeling
 1. Tentukan X dan Y
