@@ -24,7 +24,7 @@ with col2 :
     EXTENT = st.number_input('Tingkat perluasan pistachio')
     ASPECT_RATIO = st.number_input('Rasio aspek pistachio')
     ROUNDNESS = st.number_input('Kebulatan pistachio')
-    COMPACTNESS = st.number_input('Kekompakan pistachio')
+    COMPACTNESS = st.number_input('Nilai Compact pistachio')
 
 prediction = ''
 input_data = (AREA,PERIMETER,MAJOR_AXIS,MINOR_AXIS,ECCENTRICITY,EQDIASQ,SOLIDITY,
